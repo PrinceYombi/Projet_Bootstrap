@@ -1,0 +1,5 @@
+ - Le site contient un menu qui est fixe
+
+ - Les images avec les details
+
+ - Un formulaire permettant aux utilisateurs de passer une commande

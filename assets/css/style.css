@@ -1,0 +1,90 @@
+/*******************NAVBAR****************************/
+.cc-navbar{
+    background-color: rgba(0, 0, 0, .55);
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, .54);
+    z-index: 99;
+}
+
+.cc-navbar .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bootom .4s ease-in-out, border-color .3s ease;
+    font-size: 1.3rem;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-color: var(--bs-teal);
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+
+}
+
+.btn-order:hover,
+.btn-order.active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+/*****************************************BANNER****************************************/
+.banner,
+.order-form{
+    height: 800px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-image: url('../images/photo-decoration-deco-salon-ethnique-chic-7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.order-form{
+    height: 500px;
+}
+
+.banner-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+/**********************************AVAILABLE********************************************/
+.card .image-content{
+    display: flex;
+    justify-content: center;
+}
+.card .image-content img{
+    width: 300px;
+}
+.image-content .carousel{
+    width: 100%;
+}
+.image-content .carousel .carousel-inner{
+    width: 100%;
+
+}
+
+.image-content .carousel .carousel-inner img{
+    width: 100%;
+}
+
+
+/****************************FOOTER*********************/
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li{
+    color: #ccc;
+    font-weight: bold;
+}
